@@ -1,0 +1,33 @@
+{
+    "name":         "snafu",
+    "version":      "9.9.9",
+    "description":  "An event scheduler.",
+    "author":       "Alan Gutierrez <alan@prettyrobots.com>",
+    "homepage":     "https://gihutb.com/bigeasy/snafu",
+    "bugs":         "https://github.com/bigeasy/snafu/issues",
+    "keywords":
+    [
+                    "snafu", "timer", "events"
+    ],
+    "contributors":
+    [
+    ],
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                    "proof": "0.0.56"
+    },
+    "main":         "snafu.js",
+    "scripts":
+    {
+                    "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    },
+    "license":      "MIT",
+    "repository":
+    {
+                    "type": "git",
+                    "url": "http://github.com/bigeasy/snafu.git"
+    }
+}
